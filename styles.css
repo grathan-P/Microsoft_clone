@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+     --breakpoint-3xl: 130rem;
+     --breakpoint-xs: 20rem;
+}
+
+.slider-fade-in {
+     animation: sliderFadeIn 500ms ease forwards;
+}
+
+.slider-fade-out {
+     animation: sliderFadeOut 400ms ease forwards;
+}
+
+@keyframes sliderFadeIn {
+     from {
+          opacity: 0;
+          transform: translatex(12px);
+     }
+     to {
+          opacity: 1;
+          transform: translatex(0);
+     }
+}
+
+@keyframes sliderFadeOut {
+     from {
+          opacity: 1;
+          transform: translatex(0);
+     }
+     to {
+          opacity: 0;
+          transform: translatex(-12px);
+     }
+}
