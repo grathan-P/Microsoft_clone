@@ -65,8 +65,8 @@ Microsoft_Clone/
 
 1. **Clone the repository** (if applicable)
    ```bash
-   git clone <repository-url>
-   cd Microsoft_Clone
+   git clone [<repository-url>](https://github.com/grathan-P/Microsoft_clone.git)
+   cd Microsoft_clone
    ```
 
 2. **Install dependencies**
